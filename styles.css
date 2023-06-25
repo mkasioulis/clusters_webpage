@@ -1,0 +1,92 @@
+body {
+  background-color: #212529;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header__phone {
+  color: #f49e1c;
+}
+
+.header__logo {
+  max-width: 200px;
+}
+
+.header__phone:hover {
+  color: #f7b655;
+}
+
+.hero {
+  background-image: url('./hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+}
+
+.hero h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero p {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__link {
+  background-color: #f49e1c;
+  border-radius: 0;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__link:hover,
+.hero__link:focus {
+  background-color: #f7b655;
+}
+
+.hero::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu-card {
+  background-color:#2b3035;
+}
+
+.menu-card__link {
+  background-color: #f49e1c;
+  border-radius: 0;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu-card__link:hover,
+.menu-card__link:focus {
+  background-color: #f7b655;
+}
+
+.footer__social-link {
+  color: #f49e1c;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: #f7b655;
+}
+
+@media (max-width: 575.98px) {
+  .header__logo {
+    max-width: 120px;
+  }
+}
