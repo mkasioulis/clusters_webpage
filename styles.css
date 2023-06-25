@@ -8,7 +8,7 @@ body {
 }
 
 .header__logo {
-  max-width: 200px;
+  max-width: 175px;
 }
 
 .header__phone:hover {
@@ -16,10 +16,11 @@ body {
 }
 
 .hero {
+  padding: 100px 0;
   background-image: url('./hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: right bottom;
   position: relative;
 }
 
@@ -31,6 +32,9 @@ body {
 .hero p {
   position: relative;
   z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
 }
 
 .hero__link {
@@ -88,5 +92,8 @@ body {
 @media (max-width: 575.98px) {
   .header__logo {
     max-width: 120px;
+  }
+  .hero p {
+    font-size: 16px;
   }
 }
